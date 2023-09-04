@@ -1,10 +1,9 @@
 import React from 'react';
-import img from "../../assets/image/contact.jpg";
+import img from "../../assets/image/img_2.png";
 import wave from "../../assets/image/wave.svg"
 import Features from "../features/features";
 import {BarChartOutlined, GlobalOutlined, TeamOutlined, SafetyOutlined,HeartOutlined} from "@ant-design/icons";
-
-
+import '../../assets/css/style.css';
 const valueList = [
     {
         id: 1,
@@ -38,7 +37,7 @@ const valueList = [
 const About = () => {
     return (
         <div>
-            <section className="w-full bg-center bg-cover h-64 md;h-96 relative"
+            <section className="w-full bg-center h-72 bg-cover about_image relative"
                       style={{backgroundImage: `url(${img})`}}>
                 <div
                     className="flex items-center justify-center w-full h-full bg-gray-900 bg-opacity-50">
