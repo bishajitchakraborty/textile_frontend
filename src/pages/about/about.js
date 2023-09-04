@@ -52,7 +52,7 @@ const About = () => {
                 </div>
             </section>
             <div>
-                <div className={"md:mt-20 w-11/12 mx-auto"}>
+                <div className={"md:mt-2 w-11/12 mx-auto"}>
                     <Features/>
                 </div>
             </div>
@@ -103,7 +103,7 @@ const About = () => {
             {/*</div>*/}
                 <section>
                     <div className="text-emerald-600 body-font">
-                        <div className="w-11/12 md:3/4 px-5 py-12 text-primary mx-auto">
+                        <div className="w-11/12 md:3/4 px-5 py-4 text-primary mx-auto">
                             <div className="flex flex-col text-center text-primary w-full mb-20">
                                 <span className="material-icons text-8xl">visibility</span>
                                 <span className={'text-2xl md:text-4xl flex justify-center items-center'}>

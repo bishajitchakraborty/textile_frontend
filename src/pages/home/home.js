@@ -90,9 +90,9 @@ const Home = () => {
                 </div>
                 <div>
                     <section className="text-emerald-600 body-font mt-16">
-                        <h2 className={' text-4xl py-8 text-center italic'}> Why Do You Choose XYZ Garments</h2>
+                        <h2 className={'text-lg  md:text-4xl py-8 text-center italic'}> Why Do You Choose XYZ Garments</h2>
                         <div className=" w-full md:w-4/6 mt-4 mx-auto mx-auto flex flex-wrap">
-                            <div className="flex flex-col flex-wrap md:py-6 -mb-10 md:w-1/2 md:pl-12 md:text-left text-center">
+                            <div className="flex flex-col flex-wrap px-4 md:px-2 md:py-6 -mb-10 md:w-1/2  md:text-left text-center">
                                 <div className="flex flex-col mb-4 md:items-start items-center">
                                     <div className="flex-grow">
                                         <p className="leading-relaxed text-sm italic">
@@ -127,7 +127,7 @@ const Home = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="sm:w-1/2 w-full mb-10 sm:mb-0 rounded-tablet overflow-hidden">
+                            <div className="sm:w-1/2 w-full mb-10 md:px-2 px-4 sm:mb-0 rounded-tablet overflow-hidden">
                                 <img alt="feature" className="md:object-cover object-contain object-center md:min-h-full h-60 w-full"
                                      src={home_11}/>
                             </div>
