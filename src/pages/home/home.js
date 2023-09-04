@@ -1,10 +1,9 @@
 import React from 'react';
 import img from "../../assets/image/contact.jpg";
-import img_1 from "../../assets/image/img_1.png";
+import img_1 from "../../assets/image/arron-1.png";
 import {TableOutlined, GlobalOutlined, BarChartOutlined, InsuranceOutlined } from "@ant-design/icons";
 import Features from "../features/features";
 import Slider from "../Slider/slider";
-import style from '../../assets/css/style.css'
 
 const serviceList = [
     {
@@ -41,10 +40,6 @@ const Home = () => {
         <>
             <div className={'relative z-0'}>
                 <Slider/>
-                {/*<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">*/}
-                {/*    <path fill="#0099ff" fillOpacity="1"*/}
-                {/*          d="M0,256L80,240C160,224,320,192,480,197.3C640,203,800,245,960,256C1120,267,1280,245,1360,234.7L1440,224L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"/>*/}
-                {/*</svg>*/}
                 <svg className={'absolute -bottom-0.5 md:-bottom-1 z-20'} id="wave" style={{transform: 'rotate(0deg)', transition: "0.3s"}} viewBox="0 0 1440 110"
                      version="1.1"
                      xmlns="http://www.w3.org/2000/svg">
@@ -72,13 +67,7 @@ const Home = () => {
                 <div className={"md:mt-20 w-11/12 mx-auto"}>
                     <Features/>
                 </div>
-                {/*{*/}
-                {/*    data && data[0]?.channelPartner &&*/}
-                {/*    <div className={'desktop:w-11/12 mx-auto w-full mb-20'}>*/}
-                {/*        <h2 className={'text-center text-gray-400 uppercase pb-8'}>Authorized Channel Partner</h2>*/}
-                {/*        <AuthorizedChannelPartner slider={data && data[0]?.channelPartner}/>*/}
-                {/*    </div>*/}
-                {/*}*/}
+
                 <div className={'bg-blue-white py-20'}>
                     <h2 className={'text-center text-2xl italic text-emerald-600'}>Our Few Clients</h2>
                     <div className={'w-8/12 mx-auto mt-10 flex flex-wrap '}>

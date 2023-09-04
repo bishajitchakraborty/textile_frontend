@@ -11,7 +11,7 @@ const tab = [
     },
     {
         name:"About Us",
-        url:"/"
+        url:"/about"
     },
     {
         name:"Manufacturing",
@@ -31,7 +31,7 @@ const tab = [
     },
     {
         name:"Contact",
-        url:"/"
+        url:"/contact"
     }
 ]
 const Header = () => {

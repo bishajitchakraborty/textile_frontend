@@ -6,16 +6,15 @@ import Footer from "./pages/footer/footer";
 import Contact from "./pages/contact/contact";
 import About from "./pages/about/about";
 
-//import './App.css';
 
 function App() {
   return (
     <div className="App">
       <Header/>
         <Routes>
-          <Route exact path="/"  element={<Home />}/>
-          {/*<Route exact path="/"  element={<Contact />}/>*/}
-          {/*<Route exact path="/"  element={<About/>}/>*/}
+          <Route exact path="/"  element={<Home />} />
+          <Route  path="/about"  element={<About/>} />
+          <Route  path="/contact"  element={<Contact/>} />
 
 
 

@@ -6,7 +6,8 @@ import 'swiper/css/navigation';
 import '../../assets/css/Home_Slider.css';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import  img1 from '../../assets/image/home_slider_1.jpg';
-import  img2 from '../../assets/image/home_slider_2.jpg';
+import  img2 from '../../assets/image/home_slider_2.jpeg';
+import  img3 from '../../assets/image/home_slider_3.png';
 const Slider = () => {
     const progressCircle = useRef(null);
     const progressContent = useRef(null);
@@ -33,6 +34,7 @@ const Slider = () => {
             >
                 <SwiperSlide><img src={img1}/></SwiperSlide>
                 <SwiperSlide><img src={img2}/></SwiperSlide>
+                <SwiperSlide><img src={img3}/></SwiperSlide>
                 {/*<SwiperSlide>Slide 3</SwiperSlide>*/}
                 {/*<SwiperSlide>Slide 4</SwiperSlide>*/}
                 {/*<SwiperSlide>Slide 5</SwiperSlide>*/}
