@@ -6,6 +6,7 @@ import Footer from "./pages/footer/footer";
 import Contact from "./pages/contact/contact";
 import About from "./pages/about/about";
 import Design from "./pages/Design_studio/design";
+import Merchandiser from "./pages/Merchandiser/merchandiser";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route  path="/about"  element={<About/>} />
           <Route  path="/contact"  element={<Contact/>} />
           <Route  path="/design"  element={<Design/>} />
+          <Route  path="/merchandiser"  element={<Merchandiser/>} />
 
 
 

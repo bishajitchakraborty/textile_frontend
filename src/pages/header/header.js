@@ -14,11 +14,11 @@ const tab = [
         url:"/about"
     },
     {
-        name:"Manufacturing",
-        url:"/"
+        name:"Merchandiser",
+        url:"/merchandiser"
     },
     {
-        name:"Design Studio",
+        name:"Design & Sample",
         url:"/design"
     },
     {

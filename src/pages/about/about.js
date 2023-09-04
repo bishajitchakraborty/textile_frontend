@@ -43,7 +43,7 @@ const About = () => {
                     className="flex items-center justify-center w-full h-full bg-gray-900 bg-opacity-50">
                     <div className="text-center">
                         <h1 className="text-2xl font-semibold  text-white uppercase lg:text-3xl">About <span
-                            className="text-primary underline">Rainbow Tissue</span></h1>
+                            className="text-primary underline">xyz Garments</span></h1>
 
                     </div>
                 </div>
@@ -129,6 +129,39 @@ const About = () => {
                         </div>
                     </div>
                 </section>
+            <section>
+                <div className="text-emerald-600 body-font">
+                    <div className="w-11/12 md:3/4 px-5 py-12 text-primary mx-auto">
+                        <div className="flex flex-col text-center text-primary w-full mb-20">
+                            <span className="material-icons text-8xl">work_history</span>
+                            <span className={'text-2xl md:text-4xl flex justify-center items-center'}>
+                                    <span className={'w-10 md:w-40 h-1 bg-emerald-600 mr-3'}/>
+                                       What We Do
+                                    <span className={'w-10 md:w-40 h-1 bg-emerald-600 ml-3'}/>
+                                </span>
+                        </div>
+                        <div
+                            className="flex flex-wrap w-full lg:w-3/4 mx-auto -m-4 justify-center text-center">
+
+                            {
+                                [1,1,1,1,1,1,1,1,1].map((v,i)=>(
+                                    <div key={i} className="p-2 md:w-1/3 w-full">
+                                        <div className="border-2 shadow-lg px-4 py-6 rounded-lg">
+                                            <span className="material-icons text-5xl">domain</span>
+                                            <p className="leading-relaxed text-2xl">Process & Quality</p>
+                                            <p className="leading-relaxed">
+                                                A strict regime of internal audits, critical process check,
+                                            </p>
+                                        </div>
+                                    </div>
+                                ))
+                            }
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
             </div>
     );
 };

@@ -56,7 +56,7 @@ const Design = () => {
             {/*<--------------------------------------------------Start Packages Protion  For Hotel------------------------------------------------------->*/}
             <section className={'sm:w-3/5 mx-auto text-emerald-600 border-b border-gray-300 sm:p-0 p-2'}>
                 <div className={'my-4 '}>
-                    <h2 className={'text-center text-4xl italic'}>Our Concepts</h2>
+                    <h2 className={'text-center text-4xl italic'}>Our Collection</h2>
                 </div>
                 <div className={' flex flex-wrap  mt-2 mb-10'}>
                     {
