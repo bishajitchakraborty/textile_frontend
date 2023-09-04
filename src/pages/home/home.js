@@ -4,6 +4,8 @@ import img_1 from "../../assets/image/arron-1.png";
 import {TableOutlined, GlobalOutlined, BarChartOutlined, InsuranceOutlined } from "@ant-design/icons";
 import Features from "../features/features";
 import Slider from "../Slider/slider";
+import about from "../../assets/image/about_us.png";
+import home_11 from "../../assets/image/home_slider_1.jpg";
 
 const serviceList = [
     {
@@ -48,7 +50,7 @@ const Home = () => {
                 </svg>
 
             </div>
-            <div className={'bg-white pt-8 pb-8'}>
+            <div className={'bg-white pt-8 pb-4'}>
                 {/*<CardSlider slider={data[0]?.homeCardSlider}/>*/}
                 <div className={'w-11/12 mt-20 mx-auto grid md:grid-cols-4 md:grid-cols-2 gap-10 '}>
                     {serviceList.map((value, i) => (
@@ -64,13 +66,13 @@ const Home = () => {
                         </div>
                     ))}
                 </div>
-                <div className={"md:mt-20 w-11/12 mx-auto"}>
+                <div className={"md:mt-4 w-11/12 mx-auto"}>
                     <Features/>
                 </div>
 
-                <div className={'bg-blue-white py-20'}>
+                <div className={'bg-blue-white py-4'}>
                     <h2 className={'text-center text-2xl italic text-emerald-600'}>Our Few Clients</h2>
-                    <div className={'w-8/12 mx-auto mt-10 flex flex-wrap '}>
+                    <div className={'w-8/12 mx-auto mt-4 flex flex-wrap '}>
                         {
                             [1,1,1,1,1,1,1,1].map((v, i) => (
                                  <div href={v.link ? v.link : "#"} className={'md:w-1/4 w-full  mt-4'} key={i}>
@@ -84,8 +86,53 @@ const Home = () => {
                                     </div>
                                 </div>
                             ))}
-
                     </div>
+                </div>
+                <div>
+                    <section className="text-emerald-600 body-font mt-16">
+                        <h2 className={' text-4xl py-8 text-center italic'}> Why Do You Choose XYZ Garments</h2>
+                        <div className=" w-full md:w-4/6 mt-4 mx-auto mx-auto flex flex-wrap">
+                            <div className="flex flex-col flex-wrap md:py-6 -mb-10 md:w-1/2 md:pl-12 md:text-left text-center">
+                                <div className="flex flex-col mb-4 md:items-start items-center">
+                                    <div className="flex-grow">
+                                        <p className="leading-relaxed text-sm italic">
+                                            Miami Associates (BD) started its journey in the beginning of 1990 with the objective to import,
+                                            supply, marketing and trading various kinds of Products & services to national & multinational company
+                                            in Bangladesh.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="flex flex-col mb-4 md:items-start items-center">
+                                    <div className="flex-grow">
+                                        <p className="leading-relaxed text-sm italic">
+                                            Miami Associates (BD) started its journey in the beginning of 1990 with the objective to import,
+                                            supply, marketing and trading various kinds of Products & services to national & multinational company
+                                            in Bangladesh.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="flex flex-col mb-4 md:items-start items-center">
+                                    <div className="flex-grow">
+                                        <p className="leading-relaxed text-sm italic">
+                                            Miami Associates (BD) is the appointed agent of BASF’s Intermediates division in Bangladesh.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="flex flex-col mb-10 md:items-start items-center">
+                                    <div className="flex-grow">
+                                        <p className="leading-relaxed text-sm italic">
+                                            Miami Associates (BD) also has business of Hot-melt adhesive, Poultry Feed Ingredients and Doctor
+                                            blade for rotogravure & flexo printing machine.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="sm:w-1/2 w-full mb-10 sm:mb-0 rounded-tablet overflow-hidden">
+                                <img alt="feature" className="md:object-cover object-contain object-center md:min-h-full h-60 w-full"
+                                     src={home_11}/>
+                            </div>
+                        </div>
+                    </section>
                 </div>
             </div>
         </>
