@@ -1,5 +1,5 @@
 import React from 'react';
-import img from "../../assets/image/img_2.png";
+import about_img from "../../assets/image/about.webp";
 import wave from "../../assets/image/wave.svg"
 import Features from "../features/features";
 import {BarChartOutlined, GlobalOutlined, TeamOutlined, SafetyOutlined,HeartOutlined} from "@ant-design/icons";
@@ -38,7 +38,7 @@ const About = () => {
     return (
         <div>
             <section className="w-full bg-center h-72 bg-cover about_image relative"
-                      style={{backgroundImage: `url(${img})`}}>
+                      style={{backgroundImage: `url(${about_img})`}}>
                 <div
                     className="flex items-center justify-center w-full h-full bg-gray-900 bg-opacity-50">
                     <div className="text-center">

@@ -19,7 +19,7 @@ const tab = [
     },
     {
         name:"Design Studio",
-        url:"/"
+        url:"/design"
     },
     {
         name:"Sustainability",
