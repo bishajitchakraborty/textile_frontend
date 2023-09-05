@@ -1,7 +1,14 @@
 import React from 'react';
 import img from "../../assets/image/contact.jpg";
 import img_1 from "../../assets/image/arron-1.png";
-import {TableOutlined, GlobalOutlined, BarChartOutlined, InsuranceOutlined } from "@ant-design/icons";
+import {
+    TableOutlined,
+    GlobalOutlined,
+    BarChartOutlined,
+    InsuranceOutlined,
+    SettingOutlined,
+    ReadOutlined, TeamOutlined, CrownOutlined, AuditOutlined
+} from "@ant-design/icons";
 import Features from "../features/features";
 import Slider from "../Slider/slider";
 import about from "../../assets/image/about_us.png";
@@ -33,6 +40,36 @@ const serviceList = [
         title: 'Shipments',
         description: "In Biochemical, we operate in a world-class business that recognizes the importance.",
         icon: <GlobalOutlined />,
+    }
+
+]
+
+const sustainabilityList = [
+    {
+        id: 1,
+        title: 'People',
+        icon: <TableOutlined />,
+    },
+    {
+        title: 'Process',
+        icon: <SettingOutlined />,
+    }
+    ,
+    {
+        id: 3,
+        title: 'Product',
+        icon: <AuditOutlined />,
+    }
+    ,
+    {
+        id: 4,
+        title: 'Community',
+        icon: <TeamOutlined />,
+    },
+    {
+        id: 5,
+        title: 'Environment',
+        icon: <CrownOutlined />
     }
 
 ]
@@ -134,6 +171,36 @@ const Home = () => {
                         </div>
                     </section>
                 </div>
+
+                <section>
+                    <div className="text-emerald-600 body-font my-20">
+                        <div className="w-11/12 md:3/4 px-5 py-4 text-primary mx-auto">
+                            <div className="flex flex-col text-center text-primary w-full mb-20">
+                                <span className={'text-2xl md:text-4xl flex justify-center items-center'}>
+                                       Sustainability
+                                </span>
+                            </div>
+                            <div
+                                className="flex flex-wrap w-full lg:w-3/4 mx-auto -m-4 justify-center text-center">
+
+                                {
+                                    sustainabilityList.map((v,i)=>(
+                                        <div className="w-full md:w-1/5  flex items-center flex-col" key={i}>
+                                            <div
+                                                className={'flex justify-center items-center text-5xl h-24 w-24 text-emerald-600 rounded-full border-2 border-emerald-600'}>
+                                                {v.icon}
+                                            </div>
+                                            <h2 className={'text-2xl text-center italic text-emerald-600 py-4 uppercase'}>{v.title}</h2>
+
+                                        </div>
+                                    ))
+
+
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
         </>
     );
