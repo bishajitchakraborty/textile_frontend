@@ -23,7 +23,7 @@ const tab = [
     },
     {
         name:"Sustainability",
-        url:"/"
+        url:"/sustainability"
     },
     {
         name:"Diversification",

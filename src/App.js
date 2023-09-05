@@ -11,6 +11,7 @@ import Subcategory from "./pages/Design_studio/Components/subcategory";
 import Category from "./pages/Design_studio/Components/category";
 import ProductDetails from "./pages/Design_studio/Components/product_details";
 import Index from "./pages/Design_studio/Components";
+import Sustainability from "./pages/sustainability/sustainability";
 
 
 function App() {
@@ -23,10 +24,11 @@ function App() {
           <Route  path="/contact"  element={<Contact/>} />
           {/*<Route  path="/design"  element={<Design/>} />*/}
           <Route  path="/merchandiser"  element={<Merchandiser/>} />
-          {/*<Route  path="/design"  element={<Category/>} />*/}
+          <Route  path="/design"  element={<Category/>} />
           {/*<Route  path="/design"  element={<Subcategory/>} />*/}
           {/*<Route  path="/design"  element={<ProductDetails/>} />*/}
-          <Route  path="/design"  element={<Index/>} />
+          {/*<Route  path="/design"  element={<Index/>} />*/}
+          <Route  path="/sustainability"  element={<Sustainability/>} />
 
 
 

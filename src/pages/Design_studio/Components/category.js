@@ -13,7 +13,7 @@ const Category = () => {
                     {
                         [1,1,1,1,1,1].map((v,i)=>(
                             <div className={'md:w-1/3 my-10 w-full '}>
-                                <Link href={''}>
+                                <Link href={'/src/pages/Design_studio/Components/subcategory.js'}>
                                     <div className={'mx-4 bg-white h-124 mb-8'}>
                                         <img src={category} alt={"aa"} height={2} width={500}
                                              className={'h-124 object-cover hover:border-4 border-white w-full transition-all ease-linear duration-100'}/>
