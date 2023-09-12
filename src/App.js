@@ -24,10 +24,10 @@ function App() {
           <Route  path="/contact"  element={<Contact/>} />
           {/*<Route  path="/design"  element={<Design/>} />*/}
           <Route  path="/merchandiser"  element={<Merchandiser/>} />
-          <Route  path="/design"  element={<Category/>} />
-          {/*<Route  path="/design"  element={<Subcategory/>} />*/}
-          {/*<Route  path="/design"  element={<ProductDetails/>} />*/}
-          {/*<Route  path="/design"  element={<Index/>} />*/}
+          <Route exact path="/design"  element={<Category/>} />
+          <Route exact path="/design/category"  element={<Subcategory/>} />
+          <Route exact path="/design/category/subCategory"  element={<Index/>} />
+          <Route exact path="/design/subCategory/product_details"  element={<ProductDetails/>} />
           <Route  path="/sustainability"  element={<Sustainability/>} />
 
 

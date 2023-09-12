@@ -22,7 +22,7 @@ const Index = () => {
                                         <h2 className={'py-2 pt-4 text-center italic text-xl text-emerald-600'}><span className={''}>Model Fashion</span></h2>
                                     </div>
                                         <div className={'w-1/2 p-2'}>
-                                            <NavLink to={'/login'}>
+                                            <NavLink to={'/design/subCategory/product_details/'}>
                                                 <div className={'justify-center flex'}>
                                                     <button
                                                         className= "w-32 uppercase font-semibold align-center items-center flex justify-center text-center text-gray-500  bg-white py-4 text-sm">

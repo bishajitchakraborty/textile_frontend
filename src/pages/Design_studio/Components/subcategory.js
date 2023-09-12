@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from "react-router-dom";
+import {NavLink} from "react-router-dom";
 import category from "../../../assets/image/Ladies-Blouse.jpg";
 
 const Subcategory = () => {
@@ -14,13 +14,13 @@ const Subcategory = () => {
                     {
                         [1,1,1,1,1,1].map((v,i)=>(
                             <div className={'md:w-1/3 my-10 w-full '}>
-                                <Link href={''}>
+                                <NavLink to={'/design/category/subCategory'}>
                                     <div className={'mx-4 bg-white h-124 mb-8'}>
                                         <img src={category} alt={"aa"} height={2} width={500}
                                              className={'h-124 object-cover hover:border-4 border-white w-full transition-all ease-linear duration-100'}/>
                                         <h2 className={'text-center bg-white text-xl  text-black py-4'}>Ladies-Blouse</h2>
                                     </div>
-                                </Link>
+                                </NavLink>
 
                             </div>
                         ))
