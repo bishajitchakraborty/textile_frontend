@@ -1,6 +1,57 @@
 import React from 'react';
 import merchandiser from "../../assets/image/merchandiser.webp";
-import mer_img from '../../assets/image/merchandising_1.jpeg';
+import img1 from "../../assets/image/tshirt_1.png";
+import img2 from "../../assets/image/t_shirt.png";
+import ResponsiveGallery from 'react-responsive-gallery';
+
+
+const images=[
+    {
+        src: 'https://cdn.pixabay.com/photo/2017/01/14/12/59/iceland-1979445_960_720.jpg'
+    },
+    {
+        src: 'https://cdn.pixabay.com/photo/2019/06/12/15/07/cat-4269479_960_720.jpg'
+    },
+    {
+        src: 'https://cdn.pixabay.com/photo/2016/12/04/21/58/rabbit-1882699_960_720.jpg'
+    },
+    {
+        src: 'https://cdn.pixabay.com/photo/2014/07/08/12/36/bird-386725_960_720.jpg'
+    },
+    {
+        src: 'https://cdn.pixabay.com/photo/2015/10/12/15/46/fallow-deer-984573_960_720.jpg'
+    },
+    {
+        src: 'https://cdn.pixabay.com/photo/2014/10/01/10/44/hedgehog-468228_960_720.jpg'
+    },
+    {
+        src: 'https://cdn.pixabay.com/photo/2013/09/22/15/29/prairie-dog-184974_960_720.jpg'
+    },
+    {
+        src: 'https://cdn.pixabay.com/photo/2018/03/31/06/31/dog-3277416_960_720.jpg'
+    },
+    {
+        src: 'https://cdn.pixabay.com/photo/2016/12/13/05/15/puppy-1903313_960_720.jpg'
+    },
+    {
+        src: 'https://cdn.pixabay.com/photo/2019/03/09/17/30/horse-4044547_960_720.jpg'
+    },
+    {
+        src: 'https://cdn.pixabay.com/photo/2017/01/14/12/59/iceland-1979445_960_720.jpg'
+    },
+    {
+        src: 'https://cdn.pixabay.com/photo/2019/06/12/15/07/cat-4269479_960_720.jpg'
+    },
+    {
+        src: 'https://cdn.pixabay.com/photo/2016/12/04/21/58/rabbit-1882699_960_720.jpg'
+    },
+    {
+        src: 'https://cdn.pixabay.com/photo/2014/07/08/12/36/bird-386725_960_720.jpg'
+    },
+    {
+        src: 'https://cdn.pixabay.com/photo/2015/10/12/15/46/fallow-deer-984573_960_720.jpg'
+    },
+];
 const Merchandiser = () => {
     return (
         <div>
@@ -10,7 +61,7 @@ const Merchandiser = () => {
                     className="flex items-center justify-center w-full h-full bg-gray-900 bg-opacity-50">
                     <div className="text-center">
                         <h1
-                            className="mobile:text-6xl text-3xl tracking-widest font-semibold text-white uppercase lg:text-3xl">Merchandising</h1>
+                            className="mobile:text-6xl text-3xl tracking-widest font-semibold text-white uppercase lg:text-3xl">Gallery</h1>
 
                     </div>
                 </div>
@@ -22,35 +73,8 @@ const Merchandiser = () => {
                 </svg>
             </div>
 
-            <div className={'w-full md:w-3/6 my-10 mx-auto '}>
-                {
-                    [1,1,1].map((v,i)=>(
-                        <div className={'px-8 py-8 my-8 shadow-2xl bg-gray-50 text-emerald-600 italic'}>
-                            <h2 className={'text-sm md:text-xl'}>Visual Merchandiser:  Skills, Duties and Job Description</h2>
-                            <div className={'flex flex-wrap py-4'}>
-                                <div className={'w-full md:w-1/2 mb-8 md:mb-4 merchandiser_thumbnail'}>
-                                    <img className={'h-56'} src={mer_img}/>
-                                </div>
-                                <div className={'w-full md:w-1/2'}>
-                                    <p className={'text-sm md:text-xl'}>
-                                        Visual Merchandiser: Skills, Duties and Job Description
-                                        Samiksha Chougule Department of Textiles (Fashion Technology) DKTE’S Textile & Engineering Institute, Ichalkaranji,
-                                    </p>
-                                    {/*<div className={'pt-4 justify-start flex'}>*/}
-                                    {/*    <button*/}
-                                    {/*        // onClick={sendMessage}*/}
-                                    {/*        className="w-32 align-center items-center flex justify-center  text-white  bg-emerald-600 py-4   text-sm">*/}
-                                    {/*        Send*/}
-                                    {/*    </button>*/}
-                                    {/*</div>*/}
-                                </div>
-                            </div>
-                        </div>
-                    ))
-                }
-
-
-
+            <div className={'w-full md:w-4/6 my-10 mx-auto '}>
+                <ResponsiveGallery images={images}/>,
             </div>
         </div>
     );

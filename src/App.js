@@ -6,12 +6,13 @@ import Footer from "./pages/footer/footer";
 import Contact from "./pages/contact/contact";
 import About from "./pages/about/about";
 import Design from "./pages/Design_studio/design";
-import Merchandiser from "./pages/Merchandiser/merchandiser";
+import Merchandiser from "./pages/Gallery/merchandiser";
 import Subcategory from "./pages/Design_studio/Components/subcategory";
 import Category from "./pages/Design_studio/Components/category";
 import ProductDetails from "./pages/Design_studio/Components/product_details";
 import Index from "./pages/Design_studio/Components";
 import Sustainability from "./pages/sustainability/sustainability";
+import Gallery from "./pages/Gallery/merchandiser";
 
 
 function App() {
@@ -23,7 +24,7 @@ function App() {
           <Route  path="/about"  element={<About/>} />
           <Route  path="/contact"  element={<Contact/>} />
           {/*<Route  path="/design"  element={<Design/>} />*/}
-          <Route  path="/merchandiser"  element={<Merchandiser/>} />
+          <Route  path="/gallery"  element={<Gallery/>} />
           <Route exact path="/design"  element={<Category/>} />
           <Route exact path="/design/category"  element={<Subcategory/>} />
           <Route exact path="/design/category/subCategory"  element={<Index/>} />

@@ -26,8 +26,8 @@ const tab = [
         url:"/sustainability"
     },
     {
-        name:"Diversification",
-        url:"/"
+        name:"Gallery",
+        url:"/gallery"
     },
     {
         name:"Contact",

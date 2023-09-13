@@ -10,7 +10,6 @@ import {
 } from "@ant-design/icons";
 import Features from "../features/features";
 import Slider from "../Slider/slider";
-import about from "../../assets/image/about_us.png";
 import home_11 from "../../assets/image/home_slider_1.jpg";
 
 const serviceList = [
