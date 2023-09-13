@@ -34,6 +34,16 @@ const ProductDetails = () => {
                                 <div className="text-sm text-gray-900 capitalize tracking-wide">Price : $120</div>
                                 <div className="text-sm text-gray-900 capitalize tracking-wide">Discount : <del>$10%</del></div>
                             </div>
+                            <div className={'mt-4 product-des text-red-500'}>
+                                <p className={'text-sm'}>
+                                    Note: Product delivery duration may vary due to product availability in stock.
+                                </p>
+                            </div>
+                            <div className={'mt-4 product-des text-red-500'}>
+                                <p className={'text-sm'}>
+                                    Disclaimer: The color of the physical product may slightly vary due to the deviation of lighting sources, photography or your device display settings.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>

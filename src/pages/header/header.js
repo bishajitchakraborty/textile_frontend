@@ -13,12 +13,12 @@ const tab = [
         name:"About Us",
         url:"/about"
     },
+    // {
+    //     name:"Merchandiser",
+    //     url:"/merchandiser"
+    // },
     {
-        name:"Merchandiser",
-        url:"/merchandiser"
-    },
-    {
-        name:"Design & Sample",
+        name:"Product",
         url:"/design"
     },
     {
@@ -58,7 +58,7 @@ const Header = () => {
                                    <NavLink to ={v.url}
                                             onClick={()=>setActiveTabIndex(i)}
                                             key={`profile-tab-${i}`}
-                                            className={classnames(activeTabIndex === i ? "active border-b-4 border-emerald-600 hover:border-black": "", " mx-4 pb-4 text-emerald-600 text-sm  underline-offset-8 hover:text-black")}>
+                                            className={classnames(activeTabIndex === i ? "active border-b-4 border-emerald-600 hover:border-black": "", " mx-4 pb-4 text-emerald-600 text-sm  uppercase underline-offset-8 hover:text-black")}>
                                              {v.name}
                                    </NavLink>
                                ))

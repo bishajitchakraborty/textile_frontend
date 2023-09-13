@@ -1,13 +1,12 @@
 import React from 'react';
 import img from "../../assets/image/contact.jpg";
-import img_1 from "../../assets/image/arron-1.png";
+import img_1 from "../../assets/image/client_logo.png";
 import {
     TableOutlined,
     GlobalOutlined,
     BarChartOutlined,
     InsuranceOutlined,
-    SettingOutlined,
-    ReadOutlined, TeamOutlined, CrownOutlined, AuditOutlined
+    SettingOutlined, TeamOutlined, CrownOutlined, AuditOutlined
 } from "@ant-design/icons";
 import Features from "../features/features";
 import Slider from "../Slider/slider";
