@@ -78,11 +78,11 @@ const Footer = () => {
                             <span className="material-icons  text-xl text-white">phone</span>
                         </a>
                         <a className="ml-3 h-8 w-8 border rounded-full flex justify-center items-center cursor-pointer ">
-                            <span className="material-icons  text-xl text-white">phone</span>
+                            <span className="material-icons  text-xl text-white">email</span>
                         </a>
-                        <a className="ml-3 h-8 w-8 border rounded-full flex justify-center items-center cursor-pointer">
-                            <span className="material-icons  text-xl text-white">phone</span>
-                        </a>
+                        {/*<a className="ml-3 h-8 w-8 border rounded-full flex justify-center items-center cursor-pointer">*/}
+                        {/*    <span className="material-icons  text-xl text-white">whatsapp</span>*/}
+                        {/*</a>*/}
                     </span>
                     </div>
                 </div>

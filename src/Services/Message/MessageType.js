@@ -1,0 +1,3 @@
+export  const MESSAGE_LOADING= 'HOME_LOADING';
+export  const MESSAGE_SUCCESS= 'HOME_SUCCESS';
+export  const MESSAGE_ERROR= 'HOME_ERROR';
